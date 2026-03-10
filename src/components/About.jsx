@@ -97,7 +97,7 @@ export default function About() {
             <div className="relative group">
               <div className="absolute -inset-3 bg-linear-to-tr from-primary/20 to-accent/20 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="relative w-64 sm:w-72 rounded-2xl overflow-hidden border-2 border-primary/20 shadow-xl">
-                <img src="/about.png" alt="Eswar Babu" className="w-full aspect-3/4 object-cover object-center" />
+                <img src={`${import.meta.env.BASE_URL}about.png`} alt="Eswar Babu" className="w-full aspect-3/4 object-cover object-center" />
                 <div className="absolute inset-0 bg-primary/10 hover:bg-transparent transition-colors duration-300" />
               </div>
             </div>

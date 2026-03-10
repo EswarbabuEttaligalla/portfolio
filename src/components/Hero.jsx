@@ -142,7 +142,7 @@ export default function Hero() {
             />
             <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-2 border-primary/30 shadow-2xl shadow-primary/10">
               <img
-                src="/profile.png"
+                src={`${import.meta.env.BASE_URL}profile.png`}
                 alt="Eswar Babu Ettaligalla"
                 className="w-full h-full object-cover object-center"
               />
